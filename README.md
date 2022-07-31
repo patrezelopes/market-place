@@ -31,6 +31,11 @@ make bash
 python manage.py createsuperuser
 ```
 
+### Access api documentation on your browser
+[swagger](http://127.0.0.1:8000/docs/)
+
+[ReDoc](http://127.0.0.1:8000/redoc/)
+
 ### Get access token
 ```
 curl --request POST \
@@ -116,18 +121,4 @@ curl --request POST \
 
 
 ### Access Django admin address on your browser
-```
-    http://127.0.0.1:8000/admin/
-```
-
-### Access api documentation on your browser
-```
-    http://127.0.0.1:8000/admin/
-```
-
-### Access api documentation on your browser
-```
-    http://127.0.0.1:8000/docs/
-    or
-    http://127.0.0.1:8000/redoc/
-```
+[Django admin](http://127.0.0.1:8000/admin/)
